@@ -18,8 +18,8 @@ Edit the paths in the `CONFIGURATION` block at the top of each script before run
 
 | Script | Purpose | Output (Figures/Tables) | Required Files (from `files/`) |
 |---|---|---|---|
-| `phen_matrix_construction.py` | Builds the gene–phenotype matrix (MP ontology). Selects the phenotypes annotated to 20–500 genes that are not ancestors of another selected one | Phenotype set used in all analyses | `MPheno_OBO.ontology.obo`, `MGI_PhenoGenoMP.rpt.txt`, `mart_export.txt` |
-| `datos_raton.py` | Fixes the cell-type order (by developmental stage, then by name) and counts the cells of each cell type at each stage | — | Atlas cell metadata (`df_cell.csv`, `Cell types and subtypes.xlsx`) |
+| `phen_matrix_construction.py` | Builds the gene–phenotype matrix (MP ontology). Selects the most specific phenotypes annotated to 20–500 genes | Phenotype set used in all analyses | `MPheno_OBO.ontology.obo`, `MGI_PhenoGenoMP.rpt.txt`, `mart_export.txt` |
+| `data_mouse.py` | Fixes the cell-type order (by developmental stage, then by name) and counts the cells of each cell type at each stage | — | Atlas cell metadata (`df_cell.csv`, `Cell types and subtypes.xlsx`) |
 | `phen_CellType_Steps.py` | Lists which phenotype-associated genes are expressed in each cell of the atlas | — | `adata_JAX_dataset_1-4.h5ad`, `df_gene.csv` |
 | `computation_KS_faster.py` | KS test of each phenotype against each cell type, on the residuals of the number of phenotype genes per cell regressed on the total number of genes per cell | Cell-type layer | — |
 | `correlation_phenotypes_across_genes.py` | Genetic layer: pairwise Jaccard similarity between phenotypes | Genetic layer | — |
