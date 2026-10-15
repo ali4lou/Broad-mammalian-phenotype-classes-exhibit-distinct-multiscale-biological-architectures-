@@ -64,6 +64,7 @@ The cell-type layer has no script of its own: it is rebuilt from the KS statisti
 - **Significance.** Phenotype pairs are not independent, so all p-values come from permutations of phenotype or category labels (Mantel-style), never from parametric tests. With 999 permutations the smallest attainable p-value is 0.001.
 - **Modularity and integration.** Quantified by the probability of superiority (PS = AUC = Mann–Whitney U / n₁n₂) on the breadth-residualised similarity matrices. 0.5 means no excess.
 - **Multiple testing.** Benjamini–Hochberg FDR within each layer.
+- **Reproducibility.** The PS values, and therefore every figure, are deterministic. The permutation p-values are estimated from a finite number of draws and vary in the third or fourth decimal between runs.
 
 ---
 
