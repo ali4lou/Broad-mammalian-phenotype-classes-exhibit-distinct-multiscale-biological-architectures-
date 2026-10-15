@@ -1,4 +1,4 @@
-# Broad-mammalian-phenotype-classes-exhibit-distinct-multiscale-biological-architectures
+# Broad mammalian phenotype classes exhibit distinct multiscale biological architectures
 Source code, datasets, and instructions for reproducing the results of our paper 'Broad mammalian phenotype classes exhibit distinct multiscale biological architectures'. 
 
 The code builds five independent representations of 2,399 Mammalian Phenotype (MP) terms (shared genes, three Gene Ontology spaces, and developmental cell types), compares them while controlling for annotation breadth, and tests the modularity and integration of the broad MP categories.
