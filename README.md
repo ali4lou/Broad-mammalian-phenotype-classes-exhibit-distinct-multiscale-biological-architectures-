@@ -25,7 +25,7 @@ Edit the paths in the `CONFIGURATION` block at the top of each script before run
 | `correlation_phenotypes_across_genes.py` | Genetic layer: pairwise Jaccard similarity between phenotypes | Genetic layer | — |
 | `GO_phenotype_similarity.py` | Three Gene Ontology layers: builds phenotype × GO matrices weighted by information content, and compute their cosine similarity | GO layers; Note **S4** | `go.obo`, `mgi.gaf`, `mart_export.txt` |
 | `validation_celltype_ontology.py` | Checks the significant phenotype × cell-type associations against the curated MP–CL pairs | Note **S1** | `mp_cl_associations.tsv`, `mapeo_manual_IA.xlsx`, `cl.obo` |
-| `section1_layer_comparison.py` | Annotation-breadth effects, partial Spearman correlations between layers, functional similarity beyond shared genes | Notes **S2, S3, S5** | — |
+| `section1_layer_comparison.py` | Annotation-breadth effects, partial Spearman correlations between layers, functional similarity beyond shared genes | Notes **S2, S3, S5**; Table **S1** | — |
 | `section2_modularity.py` | Modularity of each broad MP category, as the probability of superiority (PS) on the breadth-residualised matrices | Figure **2**; Table **S2** | `MPheno_OBO.ontology.obo` |
 | `disjoint_integration.py` | Integration excluding, for each pair of MP categories, the phenotypes that belong to both | Figure **3**, Table **S3** | — |
 | `genetic_layer_correlations.py` | Compares tha PS values of each layer with the genetic one after correcting the genetic PS for category size, and computes the residuals | Table **S4** | — |
