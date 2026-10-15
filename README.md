@@ -50,14 +50,12 @@ The cell-type layer has no script of its own: it is rebuilt from the KS statisti
 
 ---
 
-## Reproducibility
+### Reproducibility
 
 The PS values, and therefore every figure, are deterministic. The permutation p-values are estimated from a finite number of draws and vary in the third or fourth decimal between runs.
 
 ---
 
-## References
- 
 ## References
  
 Qiu, C., et al. (2024). A single-cell time-lapse of mouse prenatal development from gastrula to birth. Nature, 626(8001), 1084–1093.
