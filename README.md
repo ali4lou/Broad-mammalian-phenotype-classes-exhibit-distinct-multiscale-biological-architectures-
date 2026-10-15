@@ -28,7 +28,7 @@ Edit the paths in the `CONFIGURATION` block at the top of each script before run
 | `section1_layer_comparison.py` | Annotation-breadth effects, partial Spearman correlations between layers, functional similarity beyond shared genes | Notes **S2, S3, S5**; Table **S1** | — |
 | `section2_modularity.py` | Modularity of each broad MP category, as the probability of superiority (PS) on the breadth-residualised matrices | Figure **2**; Table **S2** | `MPheno_OBO.ontology.obo` |
 | `disjoint_integration.py` | Integration excluding, for each pair of MP categories, the phenotypes that belong to both | Figure **3**, Table **S3** | — |
-| `genetic_layer_correlations.py` | Compares tha PS values of each layer with the genetic one after correcting the genetic PS for category size, and computes the residuals | Table **S4** | — |
+| `genetic_layer_correlations.py` | Compares tha PS values of each layer with the genetic one after correcting the genetic PS for category size, and computes the residuals | Note **S7**; Table **S4** | — |
 
 The cell-type layer has no script of its own: it is rebuilt from the KS statistics, with the same few lines, by `section1_layer_comparison.py`, `section2_modularity.py` and `disjoint_integration.py`, so the layer has a single definition.
 
