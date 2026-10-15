@@ -32,6 +32,10 @@ Edit the paths in the `CONFIGURATION` block at the top of each script before run
 
 The cell-type layer has no script of its own: it is rebuilt from the KS statistics, with the same few lines, by `section1_layer_comparison.py`, `section2_modularity.py` and `disjoint_integration.py`, so the layer has a single definition.
 
+#### Reproducibility
+
+The PS values, and therefore every figure, are deterministic. The permutation p-values are estimated from a finite number of draws and vary in the third or fourth decimal between runs.
+
 ---
 
 ## Input data
@@ -48,11 +52,6 @@ The cell-type layer has no script of its own: it is rebuilt from the KS statisti
 | `curated_mapping_CL.xlsx` | Automatic and manual curation mapping each atlas cell type name to a Cell Ontology cell type | Curated for this work |
 | Embryonic single-cell atlas: `adata_JAX_dataset_1-4.h5ad` | Cells × genes, with cell type and developmental stage (Qiu et al., 2024) | https://omg.gs.washington.edu/jax/public/about.html |
 
----
-
-### Reproducibility
-
-The PS values, and therefore every figure, are deterministic. The permutation p-values are estimated from a finite number of draws and vary in the third or fourth decimal between runs.
 
 ---
 
