@@ -12,12 +12,6 @@ This repository is organized into two main folders:
 
 Edit the paths in the `CONFIGURATION` block at the top of each script before running. The scripts must be run in the order of the table below, since each one reads the files written by the previous ones.
 
-Set the hash seed first, so that the random seeds derived from category names are identical between runs:
-
-```bash
-export PYTHONHASHSEED=0
-```
-
 ---
 
 ## Overview of Scripts and Outputs
